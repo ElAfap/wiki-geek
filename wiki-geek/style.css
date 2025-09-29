@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body.wiki-bg {
+    position: relative;
+    background: radial-gradient(
+            circle at center,
+            #3b0f46 0%,
+            #2f0b38 40%,
+            #1a0520 75%,
+            #0d0312 100%
+    );
+    color: #eee;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+body.wiki-bg::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    opacity: 0.22;
+    background:
+            url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>\
+ <filter id='n'>\
+  <feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' seed='7'/>\
+  <feColorMatrix type='saturate' values='0'/>\
+ </filter>\
+ <rect width='100%%' height='100%%' filter='url(#n)'/>\
+</svg>");
+    background-size: 320px 320px;
+}
