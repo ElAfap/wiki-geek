@@ -48,5 +48,26 @@ body.wiki-bg::after {
 
 
 .tituloIndex{
+    font-family: orbitron;
     font-style: oblique;
+}
+
+.streamerbotcontainer{
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center; 
+    gap: 2rem; 
+    padding: 0 15px;
+}
+
+.streamerbot{
+    width: 200px; 
+    flex-shrink: 0;
+    
+}
+
+.descripcionStreamerbot{
+    flex: 1; 
+    max-width: 500px;
 }
