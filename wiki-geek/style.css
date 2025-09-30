@@ -36,3 +36,17 @@ body.wiki-bg::after {
 </svg>");
     background-size: 320px 320px;
 }
+
+.Tuerca-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-5%, -5%);
+    width: 10%;
+}
+
+
+
+.tituloIndex{
+    font-style: oblique;
+}
