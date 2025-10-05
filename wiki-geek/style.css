@@ -15,7 +15,8 @@ body.wiki-bg {
     );
     color: #eee;
     font-family: Arial, sans-serif;
-    overflow: hidden;
+    overflow-y: auto; /* 👈 Esto permite scroll vertical */
+    overflow-x: hidden; /* 👈 Esto evita scroll lateral innecesario */
 }
 
 body.wiki-bg::after {
@@ -44,30 +45,63 @@ body.wiki-bg::after {
     transform: translate(-5%, -5%);
     width: 10%;
 }
-
-
-
 .tituloIndex{
     font-family: orbitron;
     font-style: oblique;
 }
+.OBS{
+    width: 200px;
+    flex-shrink: 0;
+}
+.OBSContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0px;
+}
+.DescripcionOBS{
+    flex: 1;
+    max-width: 500px;
+}
+
+
 
 .streamerbotcontainer{
     margin-top: 50px;
-
+    justify-content: center;
     display: flex;
     align-items: center; 
     gap: 2rem; 
+    order: 1;
     padding: 0 15px;
 }
 
 .streamerbot{
     width: 200px; 
     flex-shrink: 0;
-    
+    order: 2;
 }
 
 .descripcionStreamerbot{
     flex: 1; 
+    max-width: 500px;
+}
+.chatbots{
+    width: 250px;
+    width: 250px;
+    flex-shrink: 0;
+}
+.chatbotsContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0px;
+}
+.chatbotsDescripcion{
+    flex: 1;
     max-width: 500px;
 }
