@@ -4,7 +4,7 @@ html, body {
     padding: 0;
 }
 
-body.wiki-bg {
+body.wiki-bg{
     position: relative;
     background: radial-gradient(
             circle at center,
@@ -15,8 +15,8 @@ body.wiki-bg {
     );
     color: #eee;
     font-family: Arial, sans-serif;
-    overflow-y: auto; /* 👈 Esto permite scroll vertical */
-    overflow-x: hidden; /* 👈 Esto evita scroll lateral innecesario */
+    overflow-y: auto; 
+    overflow-x: hidden; 
 }
 
 body.wiki-bg::after {
@@ -102,6 +102,44 @@ body.wiki-bg::after {
     padding: 0px;
 }
 .chatbotsDescripcion{
+    flex: 1;
+    max-width: 500px;
+}
+.discordContainer{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    order: 1;
+    padding: 0 15px;
+}
+
+.discord{
+    width: 200px;
+    flex-shrink: 0;
+    order: 2;
+}
+
+.discordDescripcion{
+    flex: 1;
+    max-width: 500px;}
+
+
+.herramientas{
+    width: 250px;
+    width: 250px;
+    flex-shrink: 0;
+}
+.herramientasContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0px;
+}
+.herramientasDescripcion{
     flex: 1;
     max-width: 500px;
 }
