@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9219e8c-28fb-4ef2-a7e7-7206937cee3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sistema escolar/.idea/Sistema escolar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/logos/discord.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutoriales/Consejos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Consejos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutoriales/Discord.html" beforeDir="false" afterPath="$PROJECT_DIR$/Discord.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutoriales/Nightbot.html" beforeDir="false" afterPath="$PROJECT_DIR$/herramientas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutoriales/OBS.html" beforeDir="false" afterPath="$PROJECT_DIR$/OBS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutoriales/Streamdeck.html" beforeDir="false" afterPath="$PROJECT_DIR$/Streamdeck.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutoriales/Streamerbot.html" beforeDir="false" afterPath="$PROJECT_DIR$/Streamerbot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consejos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Consejos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Discord.html" beforeDir="false" afterPath="$PROJECT_DIR$/Discord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OBS.html" beforeDir="false" afterPath="$PROJECT_DIR$/OBS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streamdeck.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streamerbot.html" beforeDir="false" afterPath="$PROJECT_DIR$/Streamerbot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbots.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatbots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herramientas.html" beforeDir="false" afterPath="$PROJECT_DIR$/herramientas.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;ElAfap&quot;
-  }
-}</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ElAfap/wiki-geek.git&quot;,
@@ -101,7 +90,13 @@
       <workItem from="1759197321646" duration="8768000" />
       <workItem from="1759638893276" duration="3987000" />
       <workItem from="1759935330727" duration="15488000" />
-      <workItem from="1759968598044" duration="4301000" />
+      <workItem from="1759968598044" duration="10240000" />
+      <workItem from="1760040903287" duration="1730000" />
+      <workItem from="1760109933581" duration="2393000" />
+      <workItem from="1760207266355" duration="3680000" />
+      <workItem from="1760385244725" duration="13637000" />
+      <workItem from="1761025020273" duration="598000" />
+      <workItem from="1762722837650" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="OBS html">
       <option name="closed" value="true" />
@@ -159,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759642830930</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="big changes!!">
+      <option name="closed" value="true" />
+      <created>1759974431707</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759974431707</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +190,8 @@
     <MESSAGE value="a" />
     <MESSAGE value="card of streamerbot and linked" />
     <MESSAGE value="descriptions added: OBS and chatbots" />
-    <option name="LAST_COMMIT_MESSAGE" value="descriptions added: OBS and chatbots" />
+    <MESSAGE value="big changes!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="big changes!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
