@@ -1,121 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Wiki</title>
-  <link rel="stylesheet" href="CSS/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Geek</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+    >
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+            rel="stylesheet"
+    >
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+    >
 </head>
 <body class="wiki-bg">
-<h1 class="text-center tituloIndex">Wiki geek</h1>
-<hr>
-<!-- OBS container-->
-<div class="OBSContainer">
-  <div class="OBS">
-    <a href="OBS.html">
-      <img src="Resources/logos/OBS.png" alt="OBS" class="OBS">
-    </a>
-  </div>
-  <div class="DescripcionOBS">
-    <a href="OBS.html">
-      <h1>
-        OBS
-      </h1>
-    </a>
-    <p>
-      Aprende a sacarle jugo a OBS: escenas, fuentes, transiciones y trucos para que tus streams se vean de lujo sin romper tu PC.
-    </p>    
-  </div>
-</div>
-
-<!-- Streamer bot container-->
-<div class="streamerbotcontainer">
-  <div class="streamerbot">
-    <a href="Streamerbot.html">
-      <img src="Resources/logos/streamerbot.png" alt="streamerbot" class="streamerbot">
-    </a>
-  </div>
-  <div class="descripcionStreamerbot">
-    <a href="Streamerbot.html" class="link-underline-dark">
-      <h1>
-        Streamerbot
-      </h1>
-    </a>
-
-    <p>
-      Aquí aprenderás a dominar Streamer.bot, la herramienta que conecta tus directos con acciones automáticas, alertas y efectos que hacen brillar tu stream.
+<header class="hero">
+    <h1 class="hero__title">Wiki Geek</h1>
+    <p class="hero__subtitle">
+        La colección definitiva de tutoriales para potenciar tus directos y construir comunidades increíbles.
     </p>
-  </div>
-</div>
-<!-- Nightbot/streamelements container-->
+   
+</header>
 
-<div class="chatbotsContainer">
-  <div class="chatbots">
-    <a href="chatbots.html">
-      <img src="Resources/logos/botschat.png" alt="chatbots" class="chatbots">
-    </a>
-  </div>
-  <div class="chatbotsDescripcion">
-    <a href="chatbots.html">
-      <h1>
-        Chatbots
-      </h1>
-    </a>
-    <p>
-      En esta sección descubrirás cómo crear y usar chatbots que respondan, moderen y hasta hagan chistes. ¡Dale cerebro digital a tus proyectos!
-    </p>
-  </div>
-</div>
-<!-- Discord container-->
-<div class="discordContainer">
-  <div class="discord">
-    <a href="Discord.html">
-      <img src="Resources/logos/discord.png" alt="discord" class="discord">
-    </a>
-  </div>
-  <div class="discordDescripcion">
-    <a href="Discord.html">
-      <h1>
-        Discord
-      </h1>
-    </a>
-    <p>
-      En esta sección exploramos todo sobre Discord: desde cómo crear tu servidor hasta cómo darle vida con bots, roles y automatizaciones. Perfecto para armar tu comunidad unida.
-    </p>
-  </div>
-</div>
+<main id="tutoriales" class="tutorials-grid">
+    <article class="tutorial-card">
+        <figure class="tutorial-card__logo">
+            <a href="OBS.html">
+                <img src="Resources/logos/OBS.png" alt="OBS Studio">
+            </a>
+        </figure>
+        <div class="tutorial-card__content">
+            <a class="tutorial-card__link" href="OBS.html">
+                <h2 class="tutorial-card__title">OBS Studio</h2>
+            </a>
+            <p class="tutorial-card__description">
+                Aprende a sacarle jugo a OBS: escenas, fuentes, transiciones y trucos para que tus streams se vean de lujo sin
+                romper tu PC.
+            </p>
+            <a class="tutorial-card__cta" href="OBS.html">Ver guías completas</a>
+        </div>
+    </article>
+    <article class="tutorial-card">
+        <figure class="tutorial-card__logo">
+            <a href="Streamerbot.html">
+                <img src="Resources/logos/streamerbot.png" alt="Streamer.bot">
+            </a>
+        </figure>
+        <div class="tutorial-card__content">
+            <a class="tutorial-card__link" href="Streamerbot.html">
+                <h2 class="tutorial-card__title">Streamer.bot</h2>
+            </a>
+            <p class="tutorial-card__description">
+                Domina Streamer.bot, la herramienta que conecta tus directos con acciones automáticas, alertas y efectos que hacen
+                brillar tu stream.
+            </p>
+            <a class="tutorial-card__cta" href="Streamerbot.html">Ver guías completas</a>
+        </div>
+    </article>
+    <article class="tutorial-card">
+        <figure class="tutorial-card__logo">
+            <a href="chatbots.html">
+                <img src="Resources/logos/botschat.png" alt="Chatbots">
+            </a>
+        </figure>
+        <div class="tutorial-card__content">
+            <a class="tutorial-card__link" href="chatbots.html">
+                <h2 class="tutorial-card__title">Chatbots</h2>
+            </a>
+            <p class="tutorial-card__description">
+                Descubre cómo crear y usar chatbots que respondan, moderen y hasta hagan chistes. ¡Dale cerebro digital a tus
+                proyectos!
+            </p>
+            <a class="tutorial-card__cta" href="chatbots.html">Ver guías completas</a>
+        </div>
+    </article>
 
-<!-- herramientas recomendadas container-->
+    <article class="tutorial-card">
+        <figure class="tutorial-card__logo">
+            <a href="Discord.html">
+                <img src="Resources/logos/discord.png" alt="Discord">
+            </a>
+        </figure>
+        <div class="tutorial-card__content">
+            <a class="tutorial-card__link" href="Discord.html">
+                <h2 class="tutorial-card__title">Discord</h2>
+            </a>
+            <p class="tutorial-card__description">
+                Explora todo sobre Discord: desde cómo crear tu servidor hasta cómo darle vida con bots, roles y automatizaciones.
+                Perfecto para armar una comunidad unida.
+            </p>
+            <a class="tutorial-card__cta" href="Discord.html">Ver guías completas</a>
+        </div>
+    </article>
 
-<div class="herramientasContainer">
-  <div class="herramientas">
-    <a href="herramientas.html">
-      <img src="Resources/afapbotsito/ideando.png" alt="herramientas" class="herramientas">
-    </a>
-  </div>
-  <div class="herramientasDescripcion">
-    <a href="herramientas.html">
-      <h1>
-        Herramientas extras
-      </h1>
-    </a>
-    <p>
-      Aquí encontrarás herramientas interactivas y creativas para tus streams: efectos, juegos, música y apps que llevan el show a otro nivel.
-    </p>
-  </div>
-</div>
+    <article class="tutorial-card">
+        <figure class="tutorial-card__logo">
+            <a href="herramientas.html">
+                <img src="Resources/afapbotsito/ideando.png" alt="Herramientas extras">
+            </a>
+        </figure>
+        <div class="tutorial-card__content">
+            <a class="tutorial-card__link" href="herramientas.html">
+                <h2 class="tutorial-card__title">Herramientas extras</h2>
+            </a>
+            <p class="tutorial-card__description">
+                Encuentra herramientas interactivas y creativas para tus streams: efectos, juegos, música y apps que llevan el show
+                a otro nivel.
+            </p>
+            <a class="tutorial-card__cta" href="herramientas.html">Ver guías completas</a>
+        </div>
+    </article>
+</main>
 
-
-<!-- Consejos y errores comunes container-->
-
-
-
-
+<!-- Consejos y errores comunes: sección planeada para una implementación futura -->
 </body>
 </html>

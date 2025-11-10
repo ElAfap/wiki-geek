@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9219e8c-28fb-4ef2-a7e7-7206937cee3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consejos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Consejos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discord.html" beforeDir="false" afterPath="$PROJECT_DIR$/Discord.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OBS.html" beforeDir="false" afterPath="$PROJECT_DIR$/OBS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streamdeck.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streamerbot.html" beforeDir="false" afterPath="$PROJECT_DIR$/Streamerbot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbots.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatbots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herramientas.html" beforeDir="false" afterPath="$PROJECT_DIR$/herramientas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +90,7 @@
       <workItem from="1760207266355" duration="3680000" />
       <workItem from="1760385244725" duration="13637000" />
       <workItem from="1761025020273" duration="598000" />
-      <workItem from="1762722837650" duration="1130000" />
+      <workItem from="1762722837650" duration="6949000" />
     </task>
     <task id="LOCAL-00001" summary="OBS html">
       <option name="closed" value="true" />
@@ -162,7 +156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759974431707</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1762724986090</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762724986090</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1762729358778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762729358778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +201,9 @@
     <MESSAGE value="card of streamerbot and linked" />
     <MESSAGE value="descriptions added: OBS and chatbots" />
     <MESSAGE value="big changes!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="big changes!!" />
+    <MESSAGE value="update" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
